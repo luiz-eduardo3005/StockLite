@@ -101,14 +101,6 @@ curl http://localhost:5164/api/produtos
 curl http://localhost:5164/api/produtos/estoque-baixo
 ```
 
-### 4. Cadastrar Produto (com token)
-```bash
-curl -X POST http://localhost:5164/api/produtos \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer SEU_TOKEN_AQUI" \
-  -d '{"nome": "Headset Gamer", "descricao": "Com surround 7.1", "preco": 249.90, "quantidadeEstoque": 15}'
-```
-
 ## 📚 Conceitos Demonstrados
 
 - **POO:** Classes, encapsulamento, métodos de validação
